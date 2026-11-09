@@ -29,7 +29,7 @@ source:
         - export-r-init-vapour-on-windows.patch
 
 build:
-  number: 0
+  number: 1
   script:
     - if: win
       then: R CMD INSTALL --build . %R_ARGS%
