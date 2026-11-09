@@ -1,0 +1,24 @@
+c_compiler:
+- r_clang
+c_stdlib:
+- vs
+channel_sources:
+- conda-forge
+channel_targets:
+- conda-forge main
+cran_mirror:
+- https://cloud.r-project.org
+cxx_compiler:
+- r_clang
+libgdal_core:
+- '3.13'
+pin_run_as_build:
+  r-base:
+    min_pin: x.x
+    max_pin: x.x
+proj:
+- '9.9'
+r_base:
+- '4.4'
+target_platform:
+- win-64
